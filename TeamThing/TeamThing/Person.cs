@@ -8,7 +8,8 @@ namespace TeamThing
 {
 	class Person
 	{
-		public string name { get; set; }
+		public string FirstName { get; set; }
+		public string LastName { get; set; }
 		public string address { get; set; }
 	}
 }
